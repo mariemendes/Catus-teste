@@ -1,0 +1,30 @@
+{
+  "name": "teste_catus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-exec": "^5.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.77.4"
+  },
+  "dependencies": {
+    "gulp-notify": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.4"
+  }
+}

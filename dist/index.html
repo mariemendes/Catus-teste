@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-Catus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/script.min.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="bg-container header">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div id="logo"><img src="assets/logo.svg" alt="catus-logo"></div>
+            <div class="nav-container">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="/">Loja</a></li>
+                        <li><a href="/">Login</a></li>
+                        <li><a href="/">Sobre</a></li>
+                        <li><a href="/">Contato</a></li>
+                    </ul>
+                </nav>
+                <div id="filter">
+                    <form action="/search" method="get">
+                        <input type="search" id="search-input" name="query" placeholder="search" aria-label="search">
+                        <button type="submit">
+                            <img src="assets/search.svg" alt="Search-icon">
+                        </button>
+                    </form>
+                    <div id="cart"><a href="/"><img src="assets/cart.svg" alt="cart-icon"></a></div>
+                </div>
+            </div>
+
+    </header>
+    <div class="container">
+        <div class="bg-container">
+            <div id="banner">
+                <ul>
+                    <li class="grid-list"><img src="assets/banner-01.svg" alt="banner1"></li>
+                    <li class="grid-list"><img src="assets/banner-02.svg" alt="banner2"></li>
+                    <li class="grid-list"><img src="assets/banner-03.svg" alt="banner3"></li>
+                    <li class="grid-list"><img src="assets/banner-04.svg" alt="banner4"></li>
+                    <li class="grid-list"><img src="assets/banner-05.svg" alt="banner5"></li>
+                </ul>
+            </div>
+            <div class="products-container">
+                <h2>Oportunidades para economizar</h2>
+                <div class="swiper-wrapper">
+                    <div class="products swiper">
+                        <div class="swiper-wrapper" id="products">
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg-container footer">
+            <div id="support" class="div-footer">
+                <h3>Central de Atendimento</h3>
+                <ul>
+                    <li><a>Ajuda e Suporte</a></li>
+                    <li><a>Fale Conosco</a></li>
+                    <li><a>Faq</a></li>
+                </ul>
+                <p class="wpp"><span>Whatsapp:(11)99999-9999</span></p>
+                <p><span>Nossos Horários</span></p>
+                <p>Segunda a sexta das 9h às 18h</p>
+            </div>
+            <div id="seal" class="div-footer div-list">
+                <h3>Selos de Segurança</h3>
+                <ul>
+                    <li><img src="assets/selo_google.svg" alt="google-seal"></li>
+                    <li><img src="assets/selo_lojaprotegida.svg" alt="protect-store"></li>
+                </ul>
+            </div>
+            <div id="payments" class="div-footer div-list">
+                <h3>Formas de Pagamento</h3>
+                <ul>
+                    <li><img src="assets/visa.svg" alt="visa-card"></li>
+                    <li><img src="assets/mastercard.svg" alt="master-card"></li>
+                    <li><img src="assets/amex.svg" alt="amex-card"></li>
+                    <li><img src="assets/diners.svg" alt="diners-card"></li>
+                    <li><img src="assets/discover.svg" alt="discover-card"></li>
+                    <li><img src="assets/boleto.svg" alt="boleto"></li>
+                    <li><img src="assets/pix.svg" alt="pix"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

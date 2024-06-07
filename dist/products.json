@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "discount": "15%",
+    "image": "product1.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "discount": "23%",
+    "image": "product2.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "image": "product3.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "priceParcels": "<span>5x</span> de <span>R$47,68</span> sem juros",
+    "image": "product4.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "discount": "15%",
+    "image": "product1.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "discount": "23%",
+    "image": "product2.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "image": "product3.svg"
+  },
+  {
+    "name": "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
+    "price": "de R$ 582,00",
+    "priceDescount": "R$ 238,41",
+    "parcels": "5",
+    "valueParcels": "R$47,68",
+    "priceParcels": "<span>5x</span> de <span>R$47,68</span> sem juros",
+    "image": "product4.svg"
+  }
+]
